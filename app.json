@@ -4,24 +4,23 @@
     "slug": "rn-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/shooting-start.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "githubUrl": "https://github.com/ivy-rong/rn-expo-app",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/shooting-start.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/shooting-start.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.rnapp"
@@ -29,11 +28,9 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/shooting-start.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     }

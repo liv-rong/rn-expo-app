@@ -4,7 +4,6 @@ import EditScreenInfo from '@/components/EditScreenInfo'
 import { Text, View } from '@/components/Themed'
 
 export default function TabOneScreen() {
-  console.log('11111111')
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One 77777</Text>
